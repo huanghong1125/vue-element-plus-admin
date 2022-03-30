@@ -1,0 +1,1 @@
+import{u as s}from"./useAxios.f2dd330b.js";const{request:a}=s(),r=s=>a({url:"/user/login",method:"post",data:s}),t=()=>a({url:"/user/loginOut",method:"get"}),e=({params:s})=>a({url:"/user/list",method:"get",params:s}),o=({params:s})=>a({url:"/role/list",method:"get",params:s}),l=({params:s})=>a({url:"/role/list",method:"get",params:s});export{l as a,e as b,t as c,o as g,r as l};
